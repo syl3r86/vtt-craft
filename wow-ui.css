@@ -116,6 +116,7 @@
 .btn-small {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #bce0e8;
   font-weight: bold;
   font-size: 12px;
@@ -133,6 +134,7 @@
 .btn-small-horde {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -150,6 +152,7 @@
 .btn-small-alliance {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -236,6 +239,7 @@
 .vtt.wow-general .app.dialog button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #bce0e8;
   font-weight: bold;
   font-size: 12px;
@@ -254,6 +258,7 @@
   border: 5px solid;
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #bce0e8;
   font-weight: bold;
   font-size: 12px;
@@ -278,6 +283,7 @@
 .vtt.wow-general .app .tag button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #bce0e8;
   font-weight: bold;
   font-size: 12px;
@@ -440,6 +446,7 @@
 .vtt.wow-general #sidebar #chat .message button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #bce0e8;
   font-weight: bold;
   font-size: 12px;
@@ -677,6 +684,7 @@
 .vtt.wow-horde #sidebar #chat .message button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -769,6 +777,7 @@
 .vtt.wow-horde .app.dialog button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -787,6 +796,7 @@
   border: 5px solid;
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -807,6 +817,7 @@
 .vtt.wow-horde .app .tag button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -926,6 +937,7 @@
 .vtt.wow-alliance #sidebar #chat .message button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -1018,6 +1030,7 @@
 .vtt.wow-alliance .app.dialog button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -1036,6 +1049,7 @@
   border: 5px solid;
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
@@ -1056,6 +1070,7 @@
 .vtt.wow-alliance .app .tag button {
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
+  text-shadow: none;
   color: #a77119;
   font-weight: bold;
   font-size: 12px;
