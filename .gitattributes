@@ -1,0 +1,9 @@
+.github export-ignore
+FUNDING.yml export-ignore
+
+.gitattributes export-ignore
+README.md export-ignore
+wow-ui.less export-ignore
+neutral_preview.jpg export-ignore
+horde_preview.jpg export-ignore
+alliance_preview.jpg export-ignore
