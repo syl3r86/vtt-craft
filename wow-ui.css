@@ -1,0 +1,1110 @@
+.tinyframe {
+  border: 12px solid;
+  border-image: url(images/frames/DialogFrame-Corners_12px.png);
+  border-image-slice: 12 12 12 12;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+}
+.hordeframe {
+  border: 20px solid;
+  border-image: url(images/frames/horde_40px.png);
+  border-image-slice: 40 40 40 40;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+}
+.hordeheader {
+  border: 7px solid;
+  border-image: url(images/frames/horde_header_15px.png);
+  border-image-slice: 15 15 15 15 fill;
+  border-image-repeat: stretch;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+}
+.allianceframe {
+  border: 20px solid;
+  border-image: url(images/frames/alliance_40px.png);
+  border-image-slice: 40 40 40 40;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+}
+.allianceheader {
+  border: 7px solid;
+  border-image: url(images/frames/alliance_header_15px.png);
+  border-image-slice: 15 15 15 15 fill;
+  border-image-repeat: stretch;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+}
+.tiledbackground {
+  background-image: url(images/backgrounds/UIFrameHordeBackground.PNG);
+  background-size: 30%;
+}
+.itembox {
+  background: url(images/frames/sidebar_item_neutral.png);
+  background-size: cover;
+}
+.btn-large {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+  font-weight: normal;
+  color: #c4a619;
+  font-size: 17px;
+  padding: 0;
+  border: 10px solid;
+  border-image: url(images/buttons/button_med_alt.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+}
+.btn-large:hover {
+  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
+.btn-large-horde {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+  font-weight: normal;
+  color: #c4a619;
+  font-size: 17px;
+  padding: 0;
+  border: 10px solid;
+  border-image: url(images/buttons/button_med_10px.png);
+  border-image-slice: 10 10 10 10 fill;
+  background: none;
+}
+.btn-large-horde:hover {
+  border-image: url(images/buttons/button_med_10px_highlight.png);
+  border-image-slice: 10 10 10 10 fill;
+  background: none;
+  box-shadow: 0 0 5px #b50000;
+}
+.btn-large-alliance {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+  font-weight: normal;
+  color: #c4a619;
+  font-size: 17px;
+  padding: 0;
+  border: 10px solid;
+  border-image: url(images/buttons/button_med_10px_alliance.png);
+  border-image-slice: 10 10 10 10 fill;
+  background: none;
+}
+.btn-large-alliance:hover {
+  border-image: url(images/buttons/button_med_10px_highlight_alliance.png);
+  border-image-slice: 10 10 10 10 fill;
+  background: none;
+  box-shadow: 0 0 5px blue;
+}
+.btn-small {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #bce0e8;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_med_alt.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+}
+.btn-small:hover {
+  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
+.btn-small-horde {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.btn-small-horde:hover {
+  border-image: url(images/buttons/button_small_6px_highlight.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px #b50000;
+}
+.btn-small-alliance {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.btn-small-alliance:hover {
+  border-image: url(images/buttons/button_small_6px_highlight_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px blue;
+}
+.parchment-border {
+  border: 10px solid;
+  border-image: url(images/backgrounds/parchment.png);
+  border-image-slice: 30 30 30 30 fill;
+  /*
+    background-image:url(images/backgrounds/parchment.png);
+    background-size:cover;
+    */
+}
+.bottombordertrim {
+  box-shadow: none;
+  border-bottom: 20px solid;
+  border-image: url(images/border_1.png) 0 0 100% 0;
+}
+@font-face {
+  font-family: "LifeCraft";
+  src: url("fonts/LifeCraft_Font.ttf");
+}
+.wow-font {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+}
+.default-font {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+}
+.vtt.wow-general button:not(.tox-tbtn) {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+  font-weight: normal;
+  color: #c4a619;
+  font-size: 17px;
+  padding: 0;
+  border: 10px solid;
+  border-image: url(images/buttons/button_med_alt.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+}
+.vtt.wow-general button:not(.tox-tbtn):hover {
+  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
+.vtt.wow-general h1,
+.vtt.wow-general h2 {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  border-color: #989200;
+}
+.vtt.wow-general a:hover {
+  text-shadow: 0 0 8px #989200;
+  color: #f5eb00;
+}
+.vtt.wow-general .item.active {
+  text-shadow: 0 0 8px #989200;
+}
+.vtt.wow-general select:focus {
+  box-shadow: 0 0 8px #989200;
+}
+.vtt.wow-general input[type="text"]:hover,
+.vtt.wow-general input[type="text"]:focus {
+  box-shadow: 0 0 8px #989200;
+}
+.vtt.wow-general ::-webkit-scrollbar-thumb {
+  background: #989200;
+  border: 1px solid #f5eb00;
+}
+.vtt.wow-general .app.dialog button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #bce0e8;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_med_alt.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+}
+.vtt.wow-general .app.dialog button:hover {
+  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
+.vtt.wow-general .app.filepicker .current-dir button.back {
+  border: 5px solid;
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #bce0e8;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_med_alt.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+}
+.vtt.wow-general .app.filepicker .current-dir button.back:hover {
+  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
+.vtt.wow-general .app.filepicker .current-dir input {
+  height: 35px;
+}
+.vtt.wow-general .app .window-resizable-handle {
+  background-image: url(images/buttons/sidebar_top_btn.png);
+  background-size: 100%;
+}
+.vtt.wow-general .app .tag button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #bce0e8;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_med_alt.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+}
+.vtt.wow-general .app .tag button:hover {
+  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
+.vtt.wow-general .app .window-header {
+  border: 12px solid;
+  border-image: url(images/frames/DialogFrame-Corners_12px.png);
+  border-image-slice: 12 12 12 12;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+}
+.vtt.wow-general .app .window-header .close {
+  background-image: url(images/buttons/button_close.png);
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-top: 3px;
+  font-size: 0;
+  margin-right: -5px;
+}
+.vtt.wow-general .app .window-header .close:hover {
+  background-image: url(images/buttons/button_close_highlight.png);
+}
+.vtt.wow-general .app .window-header .close i {
+  display: none;
+}
+.vtt.wow-general .app .window-content {
+  border: 12px solid;
+  border-image: url(images/frames/DialogFrame-Corners_12px.png);
+  border-image-slice: 12 12 12 12;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+  border-top: 0;
+}
+.vtt.wow-general #context-menu .context-item:hover {
+  text-shadow: 0 0 8px #989200;
+  color: #f5eb00;
+}
+.vtt.wow-general #controls .scene-control,
+.vtt.wow-general #controls .control-tool {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+.vtt.wow-general #controls .scene-control.active,
+.vtt.wow-general #controls .control-tool.active {
+  color: #f5eb00;
+  border: 2px solid #f5eb00;
+  box-shadow: 0 0 10px #989200;
+}
+.vtt.wow-general #controls .scene-control:hover,
+.vtt.wow-general #controls .control-tool:hover {
+  border: 2px solid #f5eb00;
+  box-shadow: 0 0 10px #989200;
+}
+.vtt.wow-general #navigation {
+  display: block;
+  max-width: calc(100% - 355px);
+  left: 130px;
+  top: 16px;
+}
+.vtt.wow-general #navigation #nav-toggle {
+  background-image: url(images/buttons/sidebar_top_btn.png);
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  z-index: 70;
+  border: none;
+}
+.vtt.wow-general #navigation #nav-toggle:hover {
+  text-shadow: 0 0 8px #989200;
+  color: #f5eb00;
+}
+.vtt.wow-general #navigation #scene-list {
+  border: 12px solid;
+  border-image: url(images/frames/DialogFrame-Corners_12px.png);
+  border-image-slice: 12 12 12 12;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+  background-image: url(images/backgrounds/UIFrameHordeBackground.PNG);
+  background-size: 30%;
+  flex: auto;
+  max-width: calc(100% - 70px);
+  margin-top: -11px;
+  margin-left: -17px;
+  padding-left: 41px;
+  padding-right: 5px;
+  z-index: -10;
+  display: inline-block;
+  flex: none;
+  width: auto;
+}
+.vtt.wow-general #navigation #scene-list .nav-item {
+  display: inline-block;
+  margin: 5px;
+}
+.vtt.wow-general #navigation #scene-list .nav-item.active {
+  color: #f5eb00;
+}
+.vtt.wow-general #navigation #scene-list .nav-item.view {
+  box-shadow: 0 0 10px #989200;
+  border-color: #f5eb00;
+}
+.vtt.wow-general #sidebar {
+  border: 12px solid;
+  border-image: url(images/frames/DialogFrame-Corners_12px.png);
+  border-image-slice: 12 12 12 12;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+  height: 97vh;
+}
+.vtt.wow-general #sidebar #chat #chat-controls {
+  color: #565656;
+}
+.vtt.wow-general #sidebar #chat #chat-controls select {
+  background-color: #565656;
+}
+.vtt.wow-general #sidebar #chat #chat-form textarea {
+  background: rgba(0, 0, 0, 0.43);
+  background-image: none;
+  border: 2px solid #565656;
+  border-radius: 3px;
+  color: white;
+}
+.vtt.wow-general #sidebar #chat #chat-form textarea:focus {
+  outline: 2px solid #989200;
+  box-shadow: 0 0 10px #989200;
+}
+.vtt.wow-general #sidebar #chat .message {
+  border: 10px solid;
+  border-image: url(images/backgrounds/parchment.png);
+  border-image-slice: 30 30 30 30 fill;
+  /*
+    background-image:url(images/backgrounds/parchment.png);
+    background-size:cover;
+    */
+  background: none;
+}
+.vtt.wow-general #sidebar #chat .message button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #bce0e8;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_med_alt.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  height: 32px;
+  line-height: 16px;
+}
+.vtt.wow-general #sidebar #chat .message button:hover {
+  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
+.vtt.wow-general #sidebar #chat .message .message-header {
+  color: #212121;
+}
+.vtt.wow-general #sidebar #chat .message .dice-roll .dice-formula,
+.vtt.wow-general #sidebar #chat .message .dice-roll .dice-total {
+  border-color: #525252;
+  background: rgba(0, 0, 0, 0.25);
+}
+.vtt.wow-general #sidebar #chat .message .card-header {
+  border-color: #737373;
+}
+.vtt.wow-general #sidebar #chat .message .card-footer {
+  border-color: #737373;
+}
+.vtt.wow-general #sidebar #chat .message .card-footer span {
+  border-color: #737373;
+}
+.vtt.wow-general #sidebar .tab[data-tab="actors"] .actor,
+.vtt.wow-general #sidebar .tab[data-tab="items"] .item,
+.vtt.wow-general #sidebar .tab[data-tab="tables"] .table {
+  background: url(images/frames/sidebar_item_neutral.png);
+  background-size: cover;
+}
+.vtt.wow-general #sidebar .tab[data-tab="actors"] .actor img,
+.vtt.wow-general #sidebar .tab[data-tab="items"] .item img,
+.vtt.wow-general #sidebar .tab[data-tab="tables"] .table img {
+  margin-left: 10px;
+  height: 36px;
+  width: 36px;
+  flex: 0 0 36px;
+  align-self: center;
+}
+.vtt.wow-general #sidebar .tab[data-tab="actors"] .actor h4,
+.vtt.wow-general #sidebar .tab[data-tab="items"] .item h4,
+.vtt.wow-general #sidebar .tab[data-tab="tables"] .table h4 {
+  padding-right: 6px;
+  text-overflow: ellipsis;
+}
+.vtt.wow-general #sidebar .tabs {
+  border-color: #989200;
+  box-shadow: 0 0 10px #989200;
+}
+.vtt.wow-general #sidebar .tabs a {
+  background-image: url(images/buttons/sidebar_top_btn.png);
+  background-size: 100% 100%;
+}
+.vtt.wow-general #sidebar .tabs a.active {
+  text-shadow: 0 0 10px #989200;
+  border-color: #989200;
+  box-shadow: none;
+}
+.vtt.wow-general #sidebar .tabs a:hover {
+  text-shadow: 0 0 8px #989200;
+  color: #f5eb00;
+}
+.vtt.wow-general #players {
+  width: 230px;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.vtt.wow-general #players h3 {
+  display: none;
+}
+.vtt.wow-general #players .player:before {
+  position: absolute;
+  content: '';
+  background-image: url(images/frames/playerframe.png);
+  width: 220px;
+  height: 46px;
+  pointer-events: none;
+}
+.vtt.wow-general #players .player-active {
+  flex: 0 0 36px;
+  height: 36px;
+  margin-left: 5px;
+  background: none;
+  background-size: contain;
+}
+.vtt.wow-general #players .player-name {
+  align-self: flex-end;
+  margin-bottom: 2px;
+  margin-left: -5px;
+  padding-left: 5px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.vtt.wow-general #hotbar {
+  /*.tinyframe();*/
+  border-left: none;
+  border-right: none;
+  left: 360px;
+  bottom: 7px;
+}
+.vtt.wow-general #hotbar #action-bar:before {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  border: 12px solid;
+  border-image: url(images/frames/DialogFrame-Corners_12px.png);
+  border-image-slice: 12 12 12 12;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+  width: 600px;
+  height: 57px;
+  left: -7px;
+  bottom: -12px;
+  z-index: -50;
+  background: rgba(0, 0, 0, 0.5);
+}
+.vtt.wow-general #hotbar #action-bar:after {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  background-image: url(images/griffon_cap.PNG);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  right: -90px;
+  bottom: -7px;
+}
+.vtt.wow-general #hotbar #action-bar #macro-list:before {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  background-image: url(images/griffon_cap.PNG);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  left: -113px;
+  bottom: -7px;
+}
+.vtt.wow-general #hotbar #action-bar #macro-list .macro {
+  background-image: url(images/buttons/hotbar_bg.png);
+  background-size: cover;
+  border: none;
+}
+.vtt.wow-general #hotbar #action-bar #macro-list .macro:hover {
+  box-shadow: 0 0 10px #989200 inset;
+}
+.vtt.wow-general #logo {
+  content: url(images/logo.png);
+}
+.vtt.wow-general #calendar-time-container {
+  left: auto!important;
+  right: 340px!important;
+  bottom: 0px!important;
+}
+.vtt.wow-horde button:not(.tox-tbtn) {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+  font-weight: normal;
+  color: #c4a619;
+  font-size: 17px;
+  padding: 0;
+  border: 10px solid;
+  border-image: url(images/buttons/button_med_10px.png);
+  border-image-slice: 10 10 10 10 fill;
+  background: none;
+}
+.vtt.wow-horde button:not(.tox-tbtn):hover {
+  border-image: url(images/buttons/button_med_10px_highlight.png);
+  border-image-slice: 10 10 10 10 fill;
+  background: none;
+  box-shadow: 0 0 5px #b50000;
+}
+.vtt.wow-horde h1,
+.vtt.wow-horde h2 {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  border-color: #b50000;
+}
+.vtt.wow-horde a:hover {
+  text-shadow: 0 0 8px #b50000;
+  color: #c00000;
+}
+.vtt.wow-horde .item.active {
+  text-shadow: 0 0 8px #b50000;
+}
+.vtt.wow-horde select:focus {
+  box-shadow: 0 0 8px #b50000;
+}
+.vtt.wow-horde input[type="text"]:hover,
+.vtt.wow-horde input[type="text"]:focus {
+  box-shadow: 0 0 8px #b50000;
+}
+.vtt.wow-horde ::-webkit-scrollbar-thumb {
+  background: #b50000;
+  border: 1px solid #c00000;
+}
+.vtt.wow-horde #context-menu .context-item:hover {
+  text-shadow: 0 0 8px #b50000;
+  color: #c00000;
+}
+.vtt.wow-horde #controls .scene-control,
+.vtt.wow-horde #controls .control-tool {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+.vtt.wow-horde #controls .scene-control.active,
+.vtt.wow-horde #controls .control-tool.active {
+  color: #c00000;
+  border: 2px solid #c00000;
+  box-shadow: 0 0 10px #b50000;
+}
+.vtt.wow-horde #controls .scene-control:hover,
+.vtt.wow-horde #controls .control-tool:hover {
+  border: 2px solid #c00000;
+  box-shadow: 0 0 10px #b50000;
+}
+.vtt.wow-horde #sidebar #chat .message button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.vtt.wow-horde #sidebar #chat .message button:hover {
+  border-image: url(images/buttons/button_small_6px_highlight.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px #b50000;
+}
+.vtt.wow-horde #navigation #nav-toggle {
+  top: 1px;
+}
+.vtt.wow-horde #navigation #nav-toggle:hover {
+  text-shadow: 0 0 8px #b50000;
+  color: #c00000;
+}
+.vtt.wow-horde #navigation #scene-list {
+  border: 7px solid;
+  border-image: url(images/frames/horde_header_15px.png);
+  border-image-slice: 15 15 15 15 fill;
+  border-image-repeat: stretch;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+}
+.vtt.wow-horde #navigation #scene-list .nav-item.active {
+  color: #c00000;
+}
+.vtt.wow-horde #navigation #scene-list .nav-item.view {
+  box-shadow: 0 0 10px #b50000;
+  border-color: #c00000;
+}
+.vtt.wow-horde #sidebar #chat #chat-form textarea {
+  background: rgba(0, 0, 0, 0.43);
+  background-image: none;
+  border: 2px solid #565656;
+  border-radius: 3px;
+  color: white;
+}
+.vtt.wow-horde #sidebar #chat #chat-form textarea:focus {
+  outline: 2px solid #b50000;
+  box-shadow: 0 0 10px #b50000;
+}
+.vtt.wow-horde #sidebar .tab[data-tab="actors"] .actor,
+.vtt.wow-horde #sidebar .tab[data-tab="items"] .item,
+.vtt.wow-horde #sidebar .tab[data-tab="tables"] .table {
+  background: url(images/frames/sidebar_item_neutral.png);
+  background-size: cover;
+}
+.vtt.wow-horde #sidebar .tab[data-tab="actors"] .actor img,
+.vtt.wow-horde #sidebar .tab[data-tab="items"] .item img,
+.vtt.wow-horde #sidebar .tab[data-tab="tables"] .table img {
+  margin-left: 10px;
+  height: 36px;
+  width: 36px;
+  flex: 0 0 36px;
+  align-self: center;
+}
+.vtt.wow-horde #sidebar .tab[data-tab="actors"] .actor h4,
+.vtt.wow-horde #sidebar .tab[data-tab="items"] .item h4,
+.vtt.wow-horde #sidebar .tab[data-tab="tables"] .table h4 {
+  padding-right: 6px;
+  text-overflow: ellipsis;
+}
+.vtt.wow-horde #sidebar .tabs {
+  border-color: #b50000;
+  box-shadow: 0 0 10px #b50000;
+}
+.vtt.wow-horde #sidebar .tabs a.active {
+  text-shadow: 0 0 10px #b50000;
+  border-color: #b50000;
+  box-shadow: none;
+}
+.vtt.wow-horde #sidebar .tabs a:hover {
+  text-shadow: 0 0 8px #b50000;
+  color: #c00000;
+}
+.vtt.wow-horde #hotbar #action-bar #macro-list .macro:hover {
+  box-shadow: 0 0 10px #b50000 inset;
+}
+.vtt.wow-horde .app {
+  border: none;
+}
+.vtt.wow-horde .app.dialog button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.vtt.wow-horde .app.dialog button:hover {
+  border-image: url(images/buttons/button_small_6px_highlight.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px #b50000;
+}
+.vtt.wow-horde .app.filepicker .current-dir button.back {
+  border: 5px solid;
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.vtt.wow-horde .app.filepicker .current-dir button.back:hover {
+  border-image: url(images/buttons/button_small_6px_highlight.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px #b50000;
+}
+.vtt.wow-horde .app.filepicker .current-dir input {
+  height: 35px;
+}
+.vtt.wow-horde .app .tag button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.vtt.wow-horde .app .tag button:hover {
+  border-image: url(images/buttons/button_small_6px_highlight.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px #b50000;
+}
+.vtt.wow-horde .app .window-header {
+  border: 20px solid;
+  border-image: url(images/frames/horde_40px.png);
+  border-image-slice: 40 40 40 40;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+  background-image: url(images/backgrounds/UIFrameHordeBackground.PNG);
+  background-size: 30%;
+}
+.vtt.wow-horde .app .window-header .close {
+  background-image: url(images/buttons/button_close.png);
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-top: 3px;
+  font-size: 0;
+  margin-right: -5px;
+}
+.vtt.wow-horde .app .window-header .close:hover {
+  background-image: url(images/buttons/button_close_highlight.png);
+}
+.vtt.wow-horde .app .window-header .close i {
+  display: none;
+}
+.vtt.wow-horde .app .window-content {
+  /*.tinyframe();
+            */
+  border: 20px solid;
+  border-image: url(images/frames/horde_40px.png);
+  border-image-slice: 40 40 40 40;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+  border-top: 0;
+}
+.vtt.wow-alliance button:not(.tox-tbtn) {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+  font-weight: normal;
+  color: #c4a619;
+  font-size: 17px;
+  padding: 0;
+  border: 10px solid;
+  border-image: url(images/buttons/button_med_10px_alliance.png);
+  border-image-slice: 10 10 10 10 fill;
+  background: none;
+}
+.vtt.wow-alliance button:not(.tox-tbtn):hover {
+  border-image: url(images/buttons/button_med_10px_highlight_alliance.png);
+  border-image-slice: 10 10 10 10 fill;
+  background: none;
+  box-shadow: 0 0 5px blue;
+}
+.vtt.wow-alliance h1,
+.vtt.wow-alliance h2 {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  border-color: blue;
+}
+.vtt.wow-alliance a:hover {
+  text-shadow: 0 0 8px blue;
+  color: #5a5afd;
+}
+.vtt.wow-alliance .item.active {
+  text-shadow: 0 0 8px blue;
+}
+.vtt.wow-alliance select:focus {
+  box-shadow: 0 0 8px blue;
+}
+.vtt.wow-alliance input[type="text"]:hover,
+.vtt.wow-alliance input[type="text"]:focus {
+  box-shadow: 0 0 8px blue;
+}
+.vtt.wow-alliance ::-webkit-scrollbar-thumb {
+  background: blue;
+  border: 1px solid #5a5afd;
+}
+.vtt.wow-alliance #context-menu .context-item:hover {
+  text-shadow: 0 0 8px blue;
+  color: #5a5afd;
+}
+.vtt.wow-alliance #controls .scene-control,
+.vtt.wow-alliance #controls .control-tool {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+.vtt.wow-alliance #controls .scene-control.active,
+.vtt.wow-alliance #controls .control-tool.active {
+  color: blue;
+  border: 2px solid blue;
+  box-shadow: 0 0 10px #5a5afd;
+}
+.vtt.wow-alliance #controls .scene-control:hover,
+.vtt.wow-alliance #controls .control-tool:hover {
+  border: 2px solid blue;
+  box-shadow: 0 0 10px #5a5afd;
+}
+.vtt.wow-alliance #sidebar #chat .message button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.vtt.wow-alliance #sidebar #chat .message button:hover {
+  border-image: url(images/buttons/button_small_6px_highlight_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px blue;
+}
+.vtt.wow-alliance #navigation #nav-toggle {
+  top: 1px;
+}
+.vtt.wow-alliance #navigation #nav-toggle:hover {
+  text-shadow: 0 0 8px blue;
+  color: #5a5afd;
+}
+.vtt.wow-alliance #navigation #scene-list {
+  border: 7px solid;
+  border-image: url(images/frames/alliance_header_15px.png);
+  border-image-slice: 15 15 15 15 fill;
+  border-image-repeat: stretch;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+}
+.vtt.wow-alliance #navigation #scene-list .nav-item.active {
+  color: #5a5afd;
+}
+.vtt.wow-alliance #navigation #scene-list .nav-item.view {
+  box-shadow: 0 0 10px blue;
+  border-color: #5a5afd;
+}
+.vtt.wow-alliance #sidebar #chat #chat-form textarea {
+  background: rgba(0, 0, 0, 0.43);
+  background-image: none;
+  border: 2px solid #565656;
+  border-radius: 3px;
+  color: white;
+}
+.vtt.wow-alliance #sidebar #chat #chat-form textarea:focus {
+  outline: 2px solid blue;
+  box-shadow: 0 0 10px blue;
+}
+.vtt.wow-alliance #sidebar .tab[data-tab="actors"] .actor,
+.vtt.wow-alliance #sidebar .tab[data-tab="items"] .item,
+.vtt.wow-alliance #sidebar .tab[data-tab="tables"] .table {
+  background: url(images/frames/sidebar_item_neutral.png);
+  background-size: cover;
+}
+.vtt.wow-alliance #sidebar .tab[data-tab="actors"] .actor img,
+.vtt.wow-alliance #sidebar .tab[data-tab="items"] .item img,
+.vtt.wow-alliance #sidebar .tab[data-tab="tables"] .table img {
+  margin-left: 10px;
+  height: 36px;
+  width: 36px;
+  flex: 0 0 36px;
+  align-self: center;
+}
+.vtt.wow-alliance #sidebar .tab[data-tab="actors"] .actor h4,
+.vtt.wow-alliance #sidebar .tab[data-tab="items"] .item h4,
+.vtt.wow-alliance #sidebar .tab[data-tab="tables"] .table h4 {
+  padding-right: 6px;
+  text-overflow: ellipsis;
+}
+.vtt.wow-alliance #sidebar .tabs {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+.vtt.wow-alliance #sidebar .tabs a.active {
+  text-shadow: 0 0 10px blue;
+  border-color: blue;
+  box-shadow: none;
+}
+.vtt.wow-alliance #sidebar .tabs a:hover {
+  text-shadow: 0 0 8px blue;
+  color: #5a5afd;
+}
+.vtt.wow-alliance #hotbar #action-bar #macro-list .macro:hover {
+  box-shadow: 0 0 10px blue inset;
+}
+.vtt.wow-alliance .app {
+  border: none;
+}
+.vtt.wow-alliance .app.dialog button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.vtt.wow-alliance .app.dialog button:hover {
+  border-image: url(images/buttons/button_small_6px_highlight_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px blue;
+}
+.vtt.wow-alliance .app.filepicker .current-dir button.back {
+  border: 5px solid;
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.vtt.wow-alliance .app.filepicker .current-dir button.back:hover {
+  border-image: url(images/buttons/button_small_6px_highlight_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px blue;
+}
+.vtt.wow-alliance .app.filepicker .current-dir input {
+  height: 35px;
+}
+.vtt.wow-alliance .app .tag button {
+  font-family: Signika, sans-serif;
+  letter-spacing: 0px;
+  color: #a77119;
+  font-weight: bold;
+  font-size: 12px;
+  border: 6px solid;
+  border-image: url(images/buttons/button_small_6px_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+}
+.vtt.wow-alliance .app .tag button:hover {
+  border-image: url(images/buttons/button_small_6px_highlight_alliance.png);
+  border-image-slice: 6 6 6 6 fill;
+  background: none;
+  box-shadow: 0 0 5px blue;
+}
+.vtt.wow-alliance .app .window-header {
+  border: 20px solid;
+  border-image: url(images/frames/alliance_40px.png);
+  border-image-slice: 40 40 40 40;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+  background-image: url(images/backgrounds/UIFrameHordeBackground.PNG);
+  background-size: 30%;
+}
+.vtt.wow-alliance .app .window-header .close {
+  background-image: url(images/buttons/button_close.png);
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-top: 3px;
+  font-size: 0;
+  margin-right: -5px;
+}
+.vtt.wow-alliance .app .window-header .close:hover {
+  background-image: url(images/buttons/button_close_highlight.png);
+}
+.vtt.wow-alliance .app .window-header .close i {
+  display: none;
+}
+.vtt.wow-alliance .app .window-content {
+  border: 20px solid;
+  border-image: url(images/frames/alliance_40px.png);
+  border-image-slice: 40 40 40 40;
+  border-image-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0.75rem black);
+  box-sizing: content-box;
+  border-top: 0;
+}
