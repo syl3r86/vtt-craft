@@ -31,25 +31,42 @@ Hooks.on('ready', () => {
 });
 
 Hooks.on('renderActorSheet', (app, html, data) => {
-    let correctionFactor = 40;
-    let newMinWidth = Number($(html).css('min-width').replace('px', '')) + correctionFactor;
+    if (game.settings.get('vtt-craft', 'chosenTheme') !== '0' && app.changedWidth === undefined) {
+        let correctionFactor = 40;
+        let newMinWidth = Number($(html).css('min-width').replace('px', '')) + correctionFactor;
 
-    app.options.width += correctionFactor;
-    html.width(html.width() + correctionFactor);
-    $(html).css('min-width', newMinWidth);
+        app.options.width += correctionFactor;
+        html.width(html.width() + correctionFactor);
+        $(html).css('min-width', newMinWidth);
+        app.changedWidth = true;
+    }
+});
+
+Hooks.on('renderItemSheet', (app, html, data) => {
+    if (game.settings.get('vtt-craft', 'chosenTheme') !== '0') {
+        console.log('rendering');
+        let correctionFactor = 40;
+        let newMinWidth = Number($(html).css('min-width').replace('px', '')) + correctionFactor;
+
+        app.options.width += correctionFactor;
+        html.width(html.width() + correctionFactor);
+        $(html).css('min-width', newMinWidth);
+    }
 });
 
 Hooks.on('renderPlayerList', (app, html, data) => {
-    let playerDisplay = html.find('.player');
-    for (let li of playerDisplay) {
-        let user = game.users.get(li.dataset.userId);
+    if (game.settings.get('vtt-craft', 'chosenTheme') !== '0') {
+        let playerDisplay = html.find('.player');
+        for (let li of playerDisplay) {
+            let user = game.users.get(li.dataset.userId);
 
-        let img = user.avatar;
-        let imgText = `url("${img}")`;
-        let imgElement = imgText;
-        $(li).find('.player-active').css('background', 'none');
-        $(li).find('.player-active').css('background-image', imgText);
-        $(li).find('.player-active').css('background-size', 'contain');
+            let img = user.avatar;
+            let imgText = `url("${img}")`;
+            let imgElement = imgText;
+            $(li).find('.player-active').css('background', 'none');
+            $(li).find('.player-active').css('background-image', imgText);
+            $(li).find('.player-active').css('background-size', 'contain');
+        }
     }
 });
 
