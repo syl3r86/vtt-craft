@@ -43,15 +43,15 @@ Hooks.on('renderActorSheet', (app, html, data) => {
 });
 
 Hooks.on('renderItemSheet', (app, html, data) => {
-    if (game.settings.get('vtt-craft', 'chosenTheme') !== '0') {
+    /*if (game.settings.get('vtt-craft', 'chosenTheme') !== '0') {
         console.log('rendering');
         let correctionFactor = 40;
         let newMinWidth = Number($(html).css('min-width').replace('px', '')) + correctionFactor;
 
-        app.options.width += correctionFactor;
+        app.position.width += correctionFactor;
         html.width(html.width() + correctionFactor);
         $(html).css('min-width', newMinWidth);
-    }
+    }*/
 });
 
 Hooks.on('renderPlayerList', (app, html, data) => {

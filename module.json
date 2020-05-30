@@ -2,7 +2,7 @@
 	"name": "vtt-craft",
 	"title": "VTT Craft",
 	"description": "",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": "Felix#6196",
 	"systems": ["dnd5e"],
     "scripts": ["/wow-ui.js"],
@@ -11,5 +11,5 @@
     "url": "https://github.com/syl3r86/preloader",
     "manifest": "https://raw.githubusercontent.com/syl3r86/vtt-craft/master/module.json",
     "download": "https://github.com/syl3r86/vtt-craft/archive/master.zip",
-    "minimumCoreVersion": "0.5.1"
+    "minimumCoreVersion": "0.6.0"
 }
